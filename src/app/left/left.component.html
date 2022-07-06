@@ -1,0 +1,13 @@
+<p>left works!</p>
+
+<div *ngFor="let s of subjectChild1">
+    <li>
+        {{s.id}} - {{s.name}}
+    </li>
+</div>
+
+<div>
+    <h1>{{receivedData}}</h1>
+</div>
+
+<button type="submit" class="btn btn-success" (click)="generateRandomNo()">Generate Random Number</button>
